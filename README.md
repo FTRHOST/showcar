@@ -10,6 +10,28 @@ ShowCar adalah prototipe aplikasi web modern untuk layanan jual beli mobil yang 
 - **Manajemen Profil**: Halaman profil yang terintegrasi dengan sesi pengguna untuk memperbarui informasi data diri.
 - **Responsif**: Desain yang dioptimalkan untuk perangkat mobile maupun desktop menggunakan CSS modern (Flexbox & Grid).
 
+## 🗺️ Alur Pengguna (Flowchart)
+
+Berikut adalah gambaran alur navigasi dan logika aplikasi:
+
+```mermaid
+graph TD
+    A[Landing Page] -->|Eksplorasi| B[Katalog Mobil]
+    B -->|Klik Detail| C[Halaman Detail Mobil]
+    C -->|Beli Sekarang| D{Cek Login}
+    D -->|Belum Login| E[Halaman Login/Register]
+    E -->|Sukses| C
+    D -->|Sudah Login| F[Pilih Pembayaran & Alamat]
+    F -->|Submit| G[Konfirmasi Pesanan]
+    G -->|Lihat Status| H[Dashboard Utama]
+    H -->|Pantau| I[Riwayat & Lacak Pesanan]
+    
+    subgraph Pengguna
+    H
+    I
+    end
+```
+
 ## 🛠️ Teknologi yang Digunakan
 
 - **Frontend**: HTML5, Vanilla CSS3 (Custom Properties & Variables), JavaScript ES6.
