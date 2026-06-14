@@ -1,0 +1,36 @@
+- generic [active] [ref=e1]:
+  - heading "Masuk atau Daftar Akun ShowCar" [level=1] [ref=e2]
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - link "ShowCar" [ref=e5] [cursor=pointer]:
+        - /url: index.html
+      - generic [ref=e6]:
+        - paragraph [ref=e7]: "\"Temukan kenyamanan berkendara mobil impian Anda dengan sistem pembayaran mudah dan proses cepat.\""
+        - paragraph [ref=e8]: ShowCar - Hub Rujukan Terpercaya bagi Para Pecinta Otomotif.
+      - generic [ref=e9]: © 2026 ShowCar. Hak Cipta Dilindungi.
+    - generic [ref=e10]:
+      - generic [ref=e11]:
+        - button "Login" [ref=e12] [cursor=pointer]
+        - button "Register" [ref=e13] [cursor=pointer]
+      - generic [ref=e14]:
+        - generic [ref=e15]:
+          - generic [ref=e16]: Email Address
+          - textbox "Email Address" [ref=e17]:
+            - /placeholder: contoh@domain.com
+            - text: aryanudin@showcar.com
+        - generic [ref=e18]:
+          - generic [ref=e19]: Password
+          - textbox "Password" [ref=e20]:
+            - /placeholder: Masukkan password Anda
+            - text: "123456"
+        - generic [ref=e21]:
+          - generic [ref=e22] [cursor=pointer]:
+            - checkbox "Remember me" [checked] [ref=e23]
+            - text: Remember me
+          - link "Forgot Password?" [ref=e24] [cursor=pointer]:
+            - /url: "#"
+        - button "Masuk Ke Akun" [ref=e25] [cursor=pointer]
+  - button "🛠️ Uji Aliran (Test Flow)" [ref=e26] [cursor=pointer]:
+    - text: 🛠️
+    - generic [ref=e27]: Uji Aliran (Test Flow)
+  - text: ✓ ✓

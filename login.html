@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Masuk atau daftarkan akun baru Anda di ShowCar untuk menikmati kemudahan sewa mobil." />
+  <title>ShowCar - Masuk atau Daftar Akun</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    /* Styling khusus Halaman Login */
+    .login-body {
+      background: radial-gradient(circle at 10% 20%, rgba(227, 28, 28, 0.05) 0%, transparent 40%),
+                  radial-gradient(circle at 90% 80%, rgba(0, 0, 0, 0.02) 0%, transparent 40%),
+                  var(--light-bg);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+    }
+    
+    .auth-container {
+      width: 100%;
+      max-width: 1000px;
+      background-color: var(--light);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-lg);
+      overflow: hidden;
+      display: grid;
+      grid-template-columns: 1fr 1.1fr;
+      min-height: 600px;
+      border: 1px solid var(--border);
+    }
+    
+    .auth-sidebar {
+      background: linear-gradient(135deg, rgba(227, 28, 28, 0.9) 0%, rgba(17, 17, 17, 0.95) 100%),
+                  url(assets/bd46aa619b12c51429dde632e8b6bb7b.jpg);
+      background-size: cover;
+      background-position: center;
+      background-blend-mode: overlay;
+      color: var(--light);
+      padding: 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    
+    .auth-sidebar-logo {
+      font-family: var(--font-title);
+      font-size: 32px;
+      font-weight: 800;
+      color: var(--light);
+    }
+    
+    .auth-sidebar-logo span {
+      color: var(--primary);
+    }
+    
+    .auth-sidebar-quote {
+      font-size: 20px;
+      font-style: italic;
+      font-weight: 300;
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
+    
+    .auth-sidebar-footer {
+      font-size: 13px;
+      opacity: 0.7;
+    }
+    
+    .auth-form-wrapper {
+      padding: 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    
+    .auth-tabs {
+      display: flex;
+      gap: 20px;
+      border-bottom: 2px solid var(--border);
+      margin-bottom: 30px;
+    }
+    
+    .auth-tab {
+      background: none;
+      border: none;
+      padding-bottom: 12px;
+      font-family: var(--font-title);
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--text-muted);
+      cursor: pointer;
+      position: relative;
+      transition: var(--transition);
+    }
+    
+    .auth-tab.active {
+      color: var(--primary);
+    }
+    
+    .auth-tab.active::after {
+      content: '';
+      position: absolute;
+      bottom: -2px;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background-color: var(--primary);
+    }
+    
+    .auth-form {
+      display: none;
+      flex-direction: column;
+      gap: 20px;
+    }
+    
+    .auth-form.active {
+      display: flex;
+      animation: fadeIn 0.4s ease;
+    }
+    
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    
+    .form-label {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text);
+    }
+    
+    .form-input {
+      padding: 12px 16px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      font-size: 14px;
+      transition: var(--transition);
+      background-color: var(--light-bg);
+      color: var(--text);
+    }
+    
+    .form-input:focus {
+      outline: none;
+      border-color: var(--primary);
+      background-color: var(--light);
+      box-shadow: 0 0 0 3px rgba(227, 28, 28, 0.1);
+    }
+    
+    .form-checkbox-group {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 13px;
+    }
+    
+    .form-checkbox {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      cursor: pointer;
+    }
+    
+    .form-link {
+      color: var(--primary);
+      font-weight: 600;
+    }
+    
+    .form-link:hover {
+      text-decoration: underline;
+    }
+    
+    .auth-submit-btn {
+      width: 100%;
+      padding: 14px;
+      font-size: 15px;
+      margin-top: 10px;
+    }
+    
+    @media (max-width: 768px) {
+      .auth-container {
+        grid-template-columns: 1fr;
+        min-height: auto;
+      }
+      
+      .auth-sidebar {
+        display: none;
+      }
+      
+      .auth-form-wrapper {
+        padding: 30px 20px;
+      }
+    }
+  </style>
+</head>
+<body class="login-body">
+  <h1 class="sr-only" style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0;">Masuk atau Daftar Akun ShowCar</h1>
+
+  <div class="auth-container">
+    <!-- Left Sidebar -->
+    <div class="auth-sidebar">
+      <a href="index.html" class="auth-sidebar-logo">Show<span>Car</span></a>
+      <div>
+        <p class="auth-sidebar-quote">
+          "Temukan kenyamanan berkendara mobil impian Anda dengan sistem pembayaran mudah dan proses cepat."
+        </p>
+        <p style="font-size: 14px; opacity: 0.9; margin-top: 10px;">
+          ShowCar - Hub Rujukan Terpercaya bagi Para Pecinta Otomotif.
+        </p>
+      </div>
+      <div class="auth-sidebar-footer">
+        &copy; 2026 ShowCar. Hak Cipta Dilindungi.
+      </div>
+    </div>
+
+    <!-- Right Form Section -->
+    <div class="auth-form-wrapper">
+      <div class="auth-tabs">
+        <button class="auth-tab active" id="tab-login">Login</button>
+        <button class="auth-tab" id="tab-register">Register</button>
+      </div>
+
+      <!-- Login Form -->
+      <form class="auth-form active" id="form-login" action="dashboard.html" method="GET">
+        <div class="form-group">
+          <label class="form-label" for="login-email">Email Address</label>
+          <input class="form-input" type="email" id="login-email" placeholder="contoh@domain.com" required value="aryanudin@showcar.com" />
+        </div>
+        
+        <div class="form-group">
+          <label class="form-label" for="login-password">Password</label>
+          <input class="form-input" type="password" id="login-password" placeholder="Masukkan password Anda" required value="123456" />
+        </div>
+
+        <div class="form-checkbox-group">
+          <label class="form-checkbox">
+            <input type="checkbox" checked /> Remember me
+          </label>
+          <a href="#" class="form-link">Forgot Password?</a>
+        </div>
+
+        <button type="submit" class="btn btn-primary auth-submit-btn">Masuk Ke Akun</button>
+      </form>
+
+      <!-- Register Form -->
+      <form class="auth-form" id="form-register" action="dashboard.html" method="GET">
+        <div class="form-group">
+          <label class="form-label" for="register-name">Nama Lengkap</label>
+          <input class="form-input" type="text" id="register-name" placeholder="Muhammad Aryanudin" required value="Muhammad Aryanudin" />
+        </div>
+        
+        <div class="form-group">
+          <label class="form-label" for="register-email">Email Address</label>
+          <input class="form-input" type="email" id="register-email" placeholder="contoh@domain.com" required value="aryanudin@showcar.com" />
+        </div>
+        
+        <div class="form-group">
+          <label class="form-label" for="register-password">Password</label>
+          <input class="form-input" type="password" id="register-password" placeholder="Minimal 6 karakter" required value="123456" />
+        </div>
+
+        <div class="form-checkbox-group" style="justify-content: flex-start;">
+          <label class="form-checkbox">
+            <input type="checkbox" required checked /> Saya menyetujui <a href="#" class="form-link">Syarat & Ketentuan</a>
+          </label>
+        </div>
+
+        <button type="submit" class="btn btn-primary auth-submit-btn">Daftar Akun Baru</button>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const tabLogin = document.getElementById('tab-login');
+      const tabRegister = document.getElementById('tab-register');
+      const formLogin = document.getElementById('form-login');
+      const formRegister = document.getElementById('form-register');
+
+      // Cek query string untuk menentukan tab aktif pertama
+      const urlParams = new URLSearchParams(window.location.search);
+      const activeTab = urlParams.get('tab');
+
+      if (activeTab === 'register') {
+        activateRegister();
+      }
+
+      tabLogin.addEventListener('click', activateLogin);
+      tabRegister.addEventListener('click', activateRegister);
+
+      function activateLogin() {
+        tabLogin.classList.add('active');
+        tabRegister.classList.remove('active');
+        formLogin.classList.add('active');
+        formRegister.classList.remove('active');
+      }
+
+      function activateRegister() {
+        tabRegister.classList.add('active');
+        tabLogin.classList.remove('active');
+        formRegister.classList.add('active');
+        formLogin.classList.remove('active');
+      }
+
+      // Simulasi penyimpanan data login
+      const saveUser = (name, email) => {
+        localStorage.setItem('userLoggedIn', 'true');
+        localStorage.setItem('userName', name || 'Muhammad Aryanudin');
+        localStorage.setItem('userEmail', email || 'aryanudin@showcar.com');
+        localStorage.setItem('userNIM', '43050250033');
+        localStorage.setItem('userClass', 'KELAS 2C');
+      };
+
+      formLogin.addEventListener('submit', (e) => {
+        const email = document.getElementById('login-email').value;
+        saveUser('Muhammad Aryanudin', email);
+      });
+
+      formRegister.addEventListener('submit', (e) => {
+        const name = document.getElementById('register-name').value;
+        const email = document.getElementById('register-email').value;
+        saveUser(name, email);
+      });
+    });
+  </script>
+</body>
+</html>

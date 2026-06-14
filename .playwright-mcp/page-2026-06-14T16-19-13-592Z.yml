@@ -1,0 +1,459 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "ShowCar" [ref=e4] [cursor=pointer]:
+        - /url: "#"
+      - navigation [ref=e5]:
+        - link "Home" [ref=e6] [cursor=pointer]:
+          - /url: "#home"
+        - link "Shop" [ref=e7] [cursor=pointer]:
+          - /url: "#shop"
+        - link "Services" [ref=e8] [cursor=pointer]:
+          - /url: "#services"
+        - link "Blog" [ref=e9] [cursor=pointer]:
+          - /url: "#blog"
+        - link "Contact" [ref=e10] [cursor=pointer]:
+          - /url: "#contact"
+        - link "Dashboard" [ref=e11] [cursor=pointer]:
+          - /url: dashboard.html
+        - link "Profile" [ref=e12] [cursor=pointer]:
+          - /url: profile.html
+      - generic [ref=e13]:
+        - link "Dashboard" [ref=e14] [cursor=pointer]:
+          - /url: dashboard.html
+        - link "Logout" [ref=e15] [cursor=pointer]:
+          - /url: index.html
+  - generic [ref=e17]:
+    - generic [ref=e18]:
+      - generic [ref=e19]: / Car in Easy Steps
+      - heading "Show New Car" [level=1] [ref=e20]
+      - paragraph [ref=e21]: Perfect way to buy and sell cars on our platform. Find your dream car with ease and quick payments.
+      - generic [ref=e22]:
+        - link "Explore Car" [ref=e23] [cursor=pointer]:
+          - /url: "#shop"
+        - link "Buy Car arrow" [ref=e24] [cursor=pointer]:
+          - /url: "#services"
+          - text: Buy Car
+          - img "arrow" [ref=e25]
+      - generic [ref=e26]:
+        - generic [ref=e27]: "We are in social media:"
+        - img "socials" [ref=e28]
+    - img "Show Car Hero" [ref=e30]
+  - generic [ref=e32]:
+    - generic [ref=e33]:
+      - generic [ref=e34]: How It Works
+      - heading "Car in Easy Steps" [level=2] [ref=e35]
+    - generic [ref=e36]:
+      - generic [ref=e37]:
+        - generic [ref=e38]:
+          - img "Top Buy & Easy Payment" [ref=e39]
+          - generic [ref=e40]: "01"
+        - generic [ref=e41]:
+          - generic [ref=e42]:
+            - img "icon" [ref=e43]
+            - heading "Top Buy and Easy Payment" [level=3] [ref=e44]
+          - paragraph [ref=e45]: Lorem ipsum dolor sit amet consectetur. Est ut fermentum auctor non lacus lorem ornare amet ac.
+          - link "Buy Car arrow" [ref=e46] [cursor=pointer]:
+            - /url: "#shop"
+            - text: Buy Car
+            - img "arrow" [ref=e47]
+      - generic [ref=e48]:
+        - generic [ref=e49]:
+          - img "Top Easy to Use" [ref=e50]
+          - generic [ref=e51]: "02"
+        - generic [ref=e52]:
+          - generic [ref=e53]:
+            - img "icon" [ref=e54]
+            - heading "Top Easy to Use" [level=3] [ref=e55]
+          - paragraph [ref=e56]: Lorem ipsum dolor sit amet consectetur. Est ut fermentum auctor non lacus lorem ornare amet ac.
+          - link "Buy Car arrow" [ref=e57] [cursor=pointer]:
+            - /url: "#shop"
+            - text: Buy Car
+            - img "arrow" [ref=e58]
+  - generic [ref=e60]:
+    - generic [ref=e61]:
+      - generic [ref=e62]: Brand New Car
+      - heading "Feel the Power of Porsche" [level=2] [ref=e63]:
+        - text: Feel the Power
+        - text: of Porsche
+      - paragraph [ref=e64]: Lorem ipsum dolor sit amet consectetur. Cursus aenean in pellentesque quis cursus. Leo tortor quis aenean tortor at. Velit amet aliquam interdum augue nunc. Pharetra curabitur.
+      - link "Discover More" [ref=e65] [cursor=pointer]:
+        - /url: "#shop"
+    - img "Porsche Power" [ref=e67]
+  - generic [ref=e69]:
+    - generic [ref=e70]:
+      - generic [ref=e71]: New Popular Car
+      - heading "Shop Popular New Car" [level=2] [ref=e72]
+    - generic [ref=e73]:
+      - button "Show All" [ref=e74] [cursor=pointer]
+      - button "Chevrolet" [ref=e75] [cursor=pointer]
+      - button "Nissan" [ref=e76] [cursor=pointer]
+      - button "Mitsubishi" [ref=e77] [cursor=pointer]
+      - button "Tesla" [ref=e78] [cursor=pointer]
+      - button "Jeep" [ref=e79] [cursor=pointer]
+      - button "Mercedes Benz" [ref=e80] [cursor=pointer]
+    - generic [ref=e81]:
+      - generic [ref=e82]:
+        - generic [ref=e83]:
+          - generic [ref=e84]: Sport
+          - button "Add to favorite" [ref=e85] [cursor=pointer]:
+            - img "fav" [ref=e86]
+          - img "Nissan GT-R R35" [ref=e87]
+        - generic [ref=e88]:
+          - generic [ref=e89]:
+            - heading "Nissan GT-R R35" [level=3] [ref=e90]
+            - generic [ref=e91]:
+              - img "star" [ref=e92]
+              - generic [ref=e93]: "5.0"
+          - paragraph [ref=e94]: Nissan GT-R R35 adalah mahakarya mobil sport Jepang yang memadukan mesin Twin-Turbo V6 berkekuatan tinggi dengan sistem penggerak All-Wheel Drive canggih. Mobil ini terkenal dengan akselerasinya yang luar biasa dari 0 hingga 100 km/jam dalam waktu kurang dari 3 detik.
+          - generic [ref=e95]:
+            - generic [ref=e96]:
+              - img "icon" [ref=e97]
+              - text: "2023"
+            - generic [ref=e98]:
+              - img "icon" [ref=e99]
+              - text: 565 HP
+            - generic [ref=e100]:
+              - img "icon" [ref=e101]
+              - text: Automatic
+            - generic [ref=e102]:
+              - img "icon" [ref=e103]
+              - text: 4 People
+          - generic [ref=e104]:
+            - generic [ref=e105]: $99.00 / day
+            - link "Buy Now" [ref=e106] [cursor=pointer]:
+              - /url: detail.html?id=1
+      - generic [ref=e107]:
+        - generic [ref=e108]:
+          - generic [ref=e109]: Sport
+          - button "Add to favorite" [ref=e110] [cursor=pointer]:
+            - img "fav" [ref=e111]
+          - img "Nissan GT-R Track Edition" [ref=e112]
+        - generic [ref=e113]:
+          - generic [ref=e114]:
+            - heading "Nissan GT-R Track Edition" [level=3] [ref=e115]
+            - generic [ref=e116]:
+              - img "star" [ref=e117]
+              - generic [ref=e118]: "4.9"
+          - paragraph [ref=e119]: Edisi khusus Track Edition dirancang oleh divisi NISMO untuk memberikan stabilitas berkendara dan kekakuan suspensi maksimal saat melaju di sirkuit balap, dengan tambahan velg ringan NISMO 20-inci dan spoiler serat karbon.
+          - generic [ref=e120]:
+            - generic [ref=e121]:
+              - img "icon" [ref=e122]
+              - text: "2023"
+            - generic [ref=e123]:
+              - img "icon" [ref=e124]
+              - text: 600 HP
+            - generic [ref=e125]:
+              - img "icon" [ref=e126]
+              - text: Automatic
+            - generic [ref=e127]:
+              - img "icon" [ref=e128]
+              - text: 4 People
+          - generic [ref=e129]:
+            - generic [ref=e130]: $129.00 / day
+            - link "Buy Now" [ref=e131] [cursor=pointer]:
+              - /url: detail.html?id=2
+      - generic [ref=e132]:
+        - generic [ref=e133]:
+          - generic [ref=e134]: Sport
+          - button "Add to favorite" [ref=e135] [cursor=pointer]:
+            - img "fav" [ref=e136]
+          - img "Chevrolet Corvette C8" [ref=e137]
+        - generic [ref=e138]:
+          - generic [ref=e139]:
+            - heading "Chevrolet Corvette C8" [level=3] [ref=e140]
+            - generic [ref=e141]:
+              - img "star" [ref=e142]
+              - generic [ref=e143]: "4.8"
+          - paragraph [ref=e144]: Chevrolet Corvette C8 memperkenalkan tata letak mid-engine untuk pertama kalinya dalam sejarah Corvette. Ini memberikan distribusi berat yang optimal dan penanganan presisi tinggi yang menyaingi supercar Eropa berharga jauh lebih mahal.
+          - generic [ref=e145]:
+            - generic [ref=e146]:
+              - img "icon" [ref=e147]
+              - text: "2023"
+            - generic [ref=e148]:
+              - img "icon" [ref=e149]
+              - text: 495 HP
+            - generic [ref=e150]:
+              - img "icon" [ref=e151]
+              - text: Automatic
+            - generic [ref=e152]:
+              - img "icon" [ref=e153]
+              - text: 2 People
+          - generic [ref=e154]:
+            - generic [ref=e155]: $95.00 / day
+            - link "Buy Now" [ref=e156] [cursor=pointer]:
+              - /url: detail.html?id=3
+      - generic [ref=e157]:
+        - generic [ref=e158]:
+          - generic [ref=e159]: Sport
+          - button "Add to favorite" [ref=e160] [cursor=pointer]:
+            - img "fav" [ref=e161]
+          - img "Mitsubishi Lancer Evolution X" [ref=e162]
+        - generic [ref=e163]:
+          - generic [ref=e164]:
+            - heading "Mitsubishi Lancer Evolution X" [level=3] [ref=e165]
+            - generic [ref=e166]:
+              - img "star" [ref=e167]
+              - generic [ref=e168]: "4.7"
+          - paragraph [ref=e169]: Mitsubishi Lancer Evolution X adalah sedan sport legendaris yang lahir dari dunia reli. Dengan sistem Super All-Wheel Control (S-AWC), mobil ini menawarkan kontrol menikung yang spektakuler dalam kondisi cuaca apa pun.
+          - generic [ref=e170]:
+            - generic [ref=e171]:
+              - img "icon" [ref=e172]
+              - text: "2022"
+            - generic [ref=e173]:
+              - img "icon" [ref=e174]
+              - text: 291 HP
+            - generic [ref=e175]:
+              - img "icon" [ref=e176]
+              - text: Manual
+            - generic [ref=e177]:
+              - img "icon" [ref=e178]
+              - text: 5 People
+          - generic [ref=e179]:
+            - generic [ref=e180]: $85.00 / day
+            - link "Buy Now" [ref=e181] [cursor=pointer]:
+              - /url: detail.html?id=4
+      - generic [ref=e182]:
+        - generic [ref=e183]:
+          - generic [ref=e184]: Electric
+          - button "Add to favorite" [ref=e185] [cursor=pointer]:
+            - img "fav" [ref=e186]
+          - img "Tesla Model S Plaid" [ref=e187]
+        - generic [ref=e188]:
+          - generic [ref=e189]:
+            - heading "Tesla Model S Plaid" [level=3] [ref=e190]
+            - generic [ref=e191]:
+              - img "star" [ref=e192]
+              - generic [ref=e193]: "4.9"
+          - paragraph [ref=e194]: Tesla Model S Plaid mendefinisikan ulang batas performa sedan. Ditenagai oleh tiga motor listrik dengan rotor berlapis karbon, mobil ini mampu melesat lebih cepat daripada hampir semua mobil produksi massal lainnya di dunia.
+          - generic [ref=e195]:
+            - generic [ref=e196]:
+              - img "icon" [ref=e197]
+              - text: "2023"
+            - generic [ref=e198]:
+              - img "icon" [ref=e199]
+              - text: 1020 HP
+            - generic [ref=e200]:
+              - img "icon" [ref=e201]
+              - text: Automatic
+            - generic [ref=e202]:
+              - img "icon" [ref=e203]
+              - text: 5 People
+          - generic [ref=e204]:
+            - generic [ref=e205]: $120.00 / day
+            - link "Buy Now" [ref=e206] [cursor=pointer]:
+              - /url: detail.html?id=5
+      - generic [ref=e207]:
+        - generic [ref=e208]:
+          - generic [ref=e209]: SUV
+          - button "Add to favorite" [ref=e210] [cursor=pointer]:
+            - img "fav" [ref=e211]
+          - img "Jeep Wrangler Rubicon" [ref=e212]
+        - generic [ref=e213]:
+          - generic [ref=e214]:
+            - heading "Jeep Wrangler Rubicon" [level=3] [ref=e215]
+            - generic [ref=e216]:
+              - img "star" [ref=e217]
+              - generic [ref=e218]: "4.8"
+          - paragraph [ref=e219]: Jeep Wrangler Rubicon adalah ikon petualangan off-road sejati. Dilengkapi dengan as roda Tru-Lok depan dan belakang, ban segala medan, serta kemampuan melepas pintu dan atap, Rubicon siap menaklukkan medan terjal mana pun.
+          - generic [ref=e220]:
+            - generic [ref=e221]:
+              - img "icon" [ref=e222]
+              - text: "2023"
+            - generic [ref=e223]:
+              - img "icon" [ref=e224]
+              - text: 285 HP
+            - generic [ref=e225]:
+              - img "icon" [ref=e226]
+              - text: Automatic
+            - generic [ref=e227]:
+              - img "icon" [ref=e228]
+              - text: 5 People
+          - generic [ref=e229]:
+            - generic [ref=e230]: $110.00 / day
+            - link "Buy Now" [ref=e231] [cursor=pointer]:
+              - /url: detail.html?id=6
+      - generic [ref=e232]:
+        - generic [ref=e233]:
+          - generic [ref=e234]: Sport
+          - button "Add to favorite" [ref=e235] [cursor=pointer]:
+            - img "fav" [ref=e236]
+          - img "Mercedes Benz AMG GT C" [ref=e237]
+        - generic [ref=e238]:
+          - generic [ref=e239]:
+            - heading "Mercedes Benz AMG GT C" [level=3] [ref=e240]
+            - generic [ref=e241]:
+              - img "star" [ref=e242]
+              - generic [ref=e243]: "5.0"
+          - paragraph [ref=e244]: Mercedes-AMG GT C menggabungkan dinamika berkendara sport murni dengan kemewahan kabin Mercedes. Mesin V8 bi-turbo yang dipasang di depan tengah memberikan raungan agresif khas AMG dan tenaga instan.
+          - generic [ref=e245]:
+            - generic [ref=e246]:
+              - img "icon" [ref=e247]
+              - text: "2023"
+            - generic [ref=e248]:
+              - img "icon" [ref=e249]
+              - text: 550 HP
+            - generic [ref=e250]:
+              - img "icon" [ref=e251]
+              - text: Automatic
+            - generic [ref=e252]:
+              - img "icon" [ref=e253]
+              - text: 2 People
+          - generic [ref=e254]:
+            - generic [ref=e255]: $150.00 / day
+            - link "Buy Now" [ref=e256] [cursor=pointer]:
+              - /url: detail.html?id=7
+      - generic [ref=e257]:
+        - generic [ref=e258]:
+          - generic [ref=e259]: Sport
+          - button "Add to favorite" [ref=e260] [cursor=pointer]:
+            - img "fav" [ref=e261]
+          - img "Nissan Skyline GT-R R34" [ref=e262]
+        - generic [ref=e263]:
+          - generic [ref=e264]:
+            - heading "Nissan Skyline GT-R R34" [level=3] [ref=e265]
+            - generic [ref=e266]:
+              - img "star" [ref=e267]
+              - generic [ref=e268]: "5.0"
+          - paragraph [ref=e269]: Ikonik, legendaris, dan dicari kolektor. Nissan Skyline GT-R R34 dengan mesin legendaris RB26DETT dan sistem AWD ATTESA E-TS Pro adalah definisi utama mobil tuner Jepang dari era keemasan.
+          - generic [ref=e270]:
+            - generic [ref=e271]:
+              - img "icon" [ref=e272]
+              - text: "2002"
+            - generic [ref=e273]:
+              - img "icon" [ref=e274]
+              - text: 276 HP
+            - generic [ref=e275]:
+              - img "icon" [ref=e276]
+              - text: Manual
+            - generic [ref=e277]:
+              - img "icon" [ref=e278]
+              - text: 4 People
+          - generic [ref=e279]:
+            - generic [ref=e280]: $199.00 / day
+            - link "Buy Now" [ref=e281] [cursor=pointer]:
+              - /url: detail.html?id=8
+    - button "View More Car" [ref=e283] [cursor=pointer]
+  - generic [ref=e285]:
+    - generic [ref=e286]:
+      - generic [ref=e287]: Brand New Car
+      - heading "Latest News & Blog" [level=2] [ref=e288]
+    - generic [ref=e289]:
+      - generic [ref=e290]:
+        - img "Jeep Wrangler" [ref=e292]
+        - generic [ref=e293]:
+          - generic [ref=e294]: Jeep
+          - heading "Jeep Wrangler" [level=3] [ref=e295]
+          - paragraph [ref=e296]: Lorem ipsum dolor sit amet consectetur. Hac tortor sit aenean sodales vivamus luctus. Cras quam sed natoque.
+          - button "Read More arrow" [ref=e297] [cursor=pointer]:
+            - text: Read More
+            - img "arrow" [ref=e298]
+      - generic [ref=e299]:
+        - img "Nissan RT 20" [ref=e301]
+        - generic [ref=e302]:
+          - generic [ref=e303]: Nissan
+          - heading "Nissan RT 20" [level=3] [ref=e304]
+          - paragraph [ref=e305]: Lorem ipsum dolor sit amet consectetur. Hac tortor sit aenean sodales vivamus luctus. Cras quam sed natoque.
+          - button "Read More arrow" [ref=e306] [cursor=pointer]:
+            - text: Read More
+            - img "arrow" [ref=e307]
+  - generic [ref=e309]:
+    - generic [ref=e310]:
+      - generic [ref=e311]: Special For You
+      - heading "What Our Clients Say" [level=2] [ref=e312]
+      - paragraph [ref=e313]: Lorem ipsum dolor sit amet consectetur. Consectetur turpis in a facilisis. Semper aliquam egestas faucibus ornare massa morbi tincidunt quam felis. Sagittis hac elit euismod.
+    - generic [ref=e314]:
+      - generic [ref=e315]:
+        - generic [ref=e318]:
+          - heading "Alex Turner" [level=4] [ref=e319]
+          - text: Nissan RT 20 Owner
+        - paragraph [ref=e320]: "\"Lorem ipsum dolor sit amet consectetur. Ut sit nullam elementum nunc dolor lobortis pellentesque mattis. Sit pellentesque massa.\""
+      - generic [ref=e321]:
+        - generic [ref=e324]:
+          - heading "Sarah Jenkins" [level=4] [ref=e325]
+          - text: Nissan RT 20 Owner
+        - paragraph [ref=e326]: "\"Lorem ipsum dolor sit amet consectetur. Ut sit nullam elementum nunc dolor lobortis pellentesque mattis. Sit pellentesque massa.\""
+      - generic [ref=e327]:
+        - generic [ref=e330]:
+          - heading "Michael Scott" [level=4] [ref=e331]
+          - text: Nissan RT 20 Owner
+        - paragraph [ref=e332]: "\"Lorem ipsum dolor sit amet consectetur. Ut sit nullam elementum nunc dolor lobortis pellentesque mattis. Sit pellentesque massa.\""
+  - generic [ref=e334]:
+    - generic [ref=e335]:
+      - generic [ref=e336]: FAQs
+      - heading "Frequently Asked Questions" [level=2] [ref=e337]
+    - generic [ref=e338]:
+      - generic [ref=e339]:
+        - img "FAQ banner" [ref=e340]
+        - generic: ShowCar
+        - generic [ref=e342]:
+          - heading "ShowCar" [level=3] [ref=e343]
+          - paragraph [ref=e344]: Pelayanan dan support terbaik untuk Anda 24/7
+      - generic [ref=e345]:
+        - generic [ref=e346]:
+          - button "Lorem ipsum dolor sit amet consectetur?" [ref=e347] [cursor=pointer]: Lorem ipsum dolor sit amet consectetur?
+          - generic [ref=e349]: Lorem ipsum dolor sit amet consectetur. Sem dui sit pharetra cras. Morbi at feugiat at turpis. Fames aliquam nunc pretium sed ultrices eu arcu morbi. Vulputate non.
+        - generic [ref=e350]:
+          - button "Lorem ipsum dolor sit amet consectetur?" [ref=e351] [cursor=pointer]: Lorem ipsum dolor sit amet consectetur?
+          - generic [ref=e353]: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut lorem quis leo sodales posuere. Pellentesque in diam id nisl posuere eleifend.
+        - generic [ref=e354]:
+          - button "Lorem ipsum dolor sit amet consectetur?" [ref=e355] [cursor=pointer]: Lorem ipsum dolor sit amet consectetur?
+          - generic [ref=e357]: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin luctus interdum justo, at convallis magna pharetra eu. In hac habitasse platea dictumst.
+        - generic [ref=e358]:
+          - button "Lorem ipsum dolor sit amet consectetur?" [ref=e359] [cursor=pointer]: Lorem ipsum dolor sit amet consectetur?
+          - generic [ref=e361]: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae vulputate ipsum. Integer ut libero vitae nunc fermentum pretium.
+        - generic [ref=e362]:
+          - button "Lorem ipsum dolor sit amet consectetur?" [ref=e363] [cursor=pointer]: Lorem ipsum dolor sit amet consectetur?
+          - generic [ref=e365]: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a eros sit amet tellus scelerisque vulputate et et velit.
+  - contentinfo [ref=e366]:
+    - generic [ref=e367]:
+      - generic [ref=e368]:
+        - generic [ref=e369]:
+          - generic [ref=e370]: ShowCar
+          - paragraph [ref=e371]: Lorem ipsum dolor sit amet consectetur. Ac id pretium lacus curabitur adipiscing.
+          - link "Social" [ref=e373] [cursor=pointer]:
+            - /url: "#"
+            - img "Social" [ref=e374]
+        - generic [ref=e375]:
+          - heading "Quick Links" [level=4] [ref=e376]
+          - list [ref=e377]:
+            - listitem [ref=e378]:
+              - link "Home" [ref=e379] [cursor=pointer]:
+                - /url: "#home"
+            - listitem [ref=e380]:
+              - link "Shop" [ref=e381] [cursor=pointer]:
+                - /url: "#shop"
+            - listitem [ref=e382]:
+              - link "Services" [ref=e383] [cursor=pointer]:
+                - /url: "#services"
+            - listitem [ref=e384]:
+              - link "Blog" [ref=e385] [cursor=pointer]:
+                - /url: "#blog"
+        - generic [ref=e386]:
+          - heading "Services" [level=4] [ref=e387]
+          - list [ref=e388]:
+            - listitem [ref=e389]:
+              - link "Buy Cars" [ref=e390] [cursor=pointer]:
+                - /url: "#shop"
+            - listitem [ref=e391]:
+              - link "Sell Cars" [ref=e392] [cursor=pointer]:
+                - /url: "#shop"
+            - listitem [ref=e393]:
+              - link "Easy Payment" [ref=e394] [cursor=pointer]:
+                - /url: "#services"
+            - listitem [ref=e395]:
+              - link "Security Guarantee" [ref=e396] [cursor=pointer]:
+                - /url: "#services"
+        - generic [ref=e397]:
+          - heading "Contact Us" [level=4] [ref=e398]
+          - list [ref=e399]:
+            - listitem [ref=e400]: support@showcar.com
+            - listitem [ref=e401]: +62 812-3456-7890
+            - listitem [ref=e402]: Jakarta, Indonesia
+      - generic [ref=e403]:
+        - paragraph [ref=e404]: © 2026 ShowCar. All rights reserved.
+        - generic [ref=e405]: dibuat oleh Muhammad Aryanudin NIM 43050250033 KELAS 2C
+  - button "🛠️ Uji Aliran (Test Flow)" [ref=e406] [cursor=pointer]:
+    - text: 🛠️
+    - generic [ref=e407]: Uji Aliran (Test Flow)
+  - text: ✓ ✓ ✓ ✓ ✓

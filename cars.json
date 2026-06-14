@@ -1,0 +1,178 @@
+[
+  {
+    "id": 1,
+    "name": "Nissan GT-R R35",
+    "brand": "nissan",
+    "type": "Sport",
+    "year": 2023,
+    "hp": "565 HP",
+    "transmission": "Automatic",
+    "capacity": "4 People",
+    "price": "$125,000",
+    "image": "assets/fcb3b2fd8b76975fe5c4b88c45dd5ff4.jpg",
+    "rating": 5.0,
+    "fuel": "Petrol (98 octane)",
+    "description": "Nissan GT-R R35 adalah mahakarya mobil sport Jepang yang memadukan mesin Twin-Turbo V6 berkekuatan tinggi dengan sistem penggerak All-Wheel Drive canggih.",
+    "specs_detail": {
+      "engine": "3.8-liter Twin-Turbo V6",
+      "acceleration": "2.9s (0-100 km/h)",
+      "top_speed": "315 km/h",
+      "fuel_economy": "12.5L / 100km"
+    },
+    "features": ["Brembo Brakes", "Carbon Fiber Trim", "Launch Control", "Bose Audio System", "Dual Zone Climate Control"]
+  },
+  {
+    "id": 2,
+    "name": "Nissan GT-R Track Edition",
+    "brand": "nissan",
+    "type": "Sport",
+    "year": 2023,
+    "hp": "600 HP",
+    "transmission": "Automatic",
+    "capacity": "4 People",
+    "price": "$155,000",
+    "image": "assets/d2873bdc337d22a79a102340e42f01b3.jpg",
+    "rating": 4.9,
+    "fuel": "Petrol (98 octane)",
+    "description": "Edisi khusus Track Edition dirancang oleh divisi NISMO untuk memberikan stabilitas berkendara dan kekakuan suspensi maksimal saat melaju di sirkuit balap.",
+    "specs_detail": {
+      "engine": "3.8-liter NISMO V6 Twin-Turbo",
+      "acceleration": "2.7s (0-100 km/h)",
+      "top_speed": "320 km/h",
+      "fuel_economy": "13.0L / 100km"
+    },
+    "features": ["NISMO Tuned Suspension", "Recaro Seats", "Carbon Fiber Spoiler", "Bilstein DampTronic", "Alcantara Steering Wheel"]
+  },
+  {
+    "id": 3,
+    "name": "Chevrolet Corvette C8",
+    "brand": "chevrolet",
+    "type": "Sport",
+    "year": 2023,
+    "hp": "495 HP",
+    "transmission": "Automatic",
+    "capacity": "2 People",
+    "price": "$90,000",
+    "image": "assets/67b8ae08ae9e3aabd11e1126224c1e6e.jpg",
+    "rating": 4.8,
+    "fuel": "Petrol (95 octane)",
+    "description": "Chevrolet Corvette C8 memperkenalkan tata letak mid-engine untuk pertama kalinya dalam sejarah Corvette.",
+    "specs_detail": {
+      "engine": "6.2-liter V8 LT2",
+      "acceleration": "3.0s (0-100 km/h)",
+      "top_speed": "312 km/h",
+      "fuel_economy": "15.0L / 100km"
+    },
+    "features": ["Mid-Engine Layout", "Removable Roof Panel", "Performance Data Recorder", "Drive Mode Selector", "Z51 Performance Package"]
+  },
+  {
+    "id": 4,
+    "name": "Mitsubishi Lancer Evolution X",
+    "brand": "mitsubishi",
+    "type": "Sport",
+    "year": 2022,
+    "hp": "291 HP",
+    "transmission": "Manual",
+    "capacity": "5 People",
+    "price": "$55,000",
+    "image": "assets/0d5c38f4c14bfd1c964be7a31f17baeb.jpg",
+    "rating": 4.7,
+    "fuel": "Petrol (95 octane)",
+    "description": "Sedan sport legendaris yang lahir dari dunia reli dengan sistem Super All-Wheel Control (S-AWC).",
+    "specs_detail": {
+      "engine": "2.0-liter Turbocharged MIVEC I4",
+      "acceleration": "4.8s (0-100 km/h)",
+      "top_speed": "250 km/h",
+      "fuel_economy": "10.2L / 100km"
+    },
+    "features": ["S-AWC 4WD System", "Brembo Braking System", "Recaro Bucket Seats", "Enkei Alloy Wheels", "Rockford Fosgate Audio"]
+  },
+  {
+    "id": 5,
+    "name": "Tesla Model S Plaid",
+    "brand": "tesla",
+    "type": "Electric",
+    "year": 2023,
+    "hp": "1020 HP",
+    "transmission": "Automatic",
+    "capacity": "5 People",
+    "price": "$115,000",
+    "image": "assets/df514a46b4cb74935fab0b9e6bd200fc.jpg",
+    "rating": 4.9,
+    "fuel": "100% Electric",
+    "description": "Tesla Model S Plaid mendefinisikan ulang batas performa sedan dengan tiga motor listrik berkekuatan 1020 HP.",
+    "specs_detail": {
+      "engine": "Tri-Motor AWD Electric Setup",
+      "acceleration": "1.99s (0-100 km/h)",
+      "top_speed": "322 km/h",
+      "range": "637 km (EPA Est.)"
+    },
+    "features": ["Yoke Steering Wheel", "17-inch Cinematic Display", "Autopilot", "Tri-Zone Climate Control", "HEPA Air Filtration System"]
+  },
+  {
+    "id": 6,
+    "name": "Jeep Wrangler Rubicon",
+    "brand": "jeep",
+    "type": "SUV",
+    "year": 2023,
+    "hp": "285 HP",
+    "transmission": "Automatic",
+    "capacity": "5 People",
+    "price": "$78,000",
+    "image": "assets/8458843702dfb0d45e10ec024291329f.jpg",
+    "rating": 4.8,
+    "fuel": "Petrol (92 octane)",
+    "description": "Ikon petualangan off-road sejati dengan kemampuan menaklukkan medan terjal mana pun.",
+    "specs_detail": {
+      "engine": "3.6-liter Pentastar V6",
+      "acceleration": "7.2s (0-100 km/h)",
+      "top_speed": "180 km/h",
+      "fuel_economy": "12.0L / 100km"
+    },
+    "features": ["Rock-Trac 4x4 System", "Electronic Sway Bar Disconnect", "Steel Off-Road Bumpers", "Waterproofing Design", "Apple CarPlay & Android Auto"]
+  },
+  {
+    "id": 7,
+    "name": "Mercedes Benz AMG GT C",
+    "brand": "mercedes-benz",
+    "type": "Sport",
+    "year": 2023,
+    "hp": "550 HP",
+    "transmission": "Automatic",
+    "capacity": "2 People",
+    "price": "$165,000",
+    "image": "assets/120af8da9648be3ded3132a81392e284.jpg",
+    "rating": 5.0,
+    "fuel": "Petrol (98 octane)",
+    "description": "Menggabungkan dinamika berkendara sport murni dengan kemewahan kabin Mercedes-AMG.",
+    "specs_detail": {
+      "engine": "4.0-liter Twin-Turbo V8",
+      "acceleration": "3.6s (0-100 km/h)",
+      "top_speed": "317 km/h",
+      "fuel_economy": "11.4L / 100km"
+    },
+    "features": ["Rear-Axle Steering", "AMG RIDE CONTROL suspension", "Active Air Control System", "Burmester Surround Sound", "Nappa Leather Interior"]
+  },
+  {
+    "id": 8,
+    "name": "Nissan Skyline GT-R R34",
+    "brand": "nissan",
+    "type": "Sport",
+    "year": 2002,
+    "hp": "276 HP",
+    "transmission": "Manual",
+    "capacity": "4 People",
+    "price": "$250,000",
+    "image": "assets/4ab6ab3e71806d4f7cb12df24507a018.png",
+    "rating": 5.0,
+    "fuel": "Petrol (98 octane)",
+    "description": "Ikonik dan legendaris. Definisi utama mobil tuner Jepang dari era keemasan dengan mesin RB26DETT.",
+    "specs_detail": {
+      "engine": "2.6-liter RB26DETT Twin-Turbo I6",
+      "acceleration": "4.9s (0-100 km/h)",
+      "top_speed": "250 km/h",
+      "fuel_economy": "14.2L / 100km"
+    },
+    "features": ["ATTESA E-TS AWD", "Super HICAS Rear Steering", "RB26DETT Engine", "M-Spec Tuned dampers", "Retro LCD Multi-Function Display"]
+  }
+]
